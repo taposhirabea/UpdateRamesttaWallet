@@ -4,5 +4,7 @@
     <item android:drawable="?android:colorBackground" />
     <item
         android:drawable="@drawable/ic_logo_vertical"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:width="200dip"
+        android:height="200dip"/>
 </layer-list>
