@@ -194,7 +194,7 @@ public class SharedPreferenceRepository implements PreferenceRepositoryType {
     @Override
     public boolean getUse1559Transactions()
     {
-        return pref.getBoolean(EXPERIMENTAL_1559_TX, false);
+        return pref.getBoolean(EXPERIMENTAL_1559_TX, true);
     }
 
     @SuppressLint("ApplySharedPref")
