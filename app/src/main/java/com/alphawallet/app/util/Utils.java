@@ -807,7 +807,7 @@ public class Utils
             put(BINANCE_MAIN_ID, "smartchain");
             put(AVALANCHE_ID, "avalanche");
             put(OPTIMISTIC_MAIN_ID, "optimism");
-            put(POLYGON_ID, "polygon");
+            put(POLYGON_ID, "ramestta");
             put(MAINNET_ID, "ethereum");
         }
     };

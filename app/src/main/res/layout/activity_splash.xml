@@ -15,10 +15,18 @@
 
         <ImageView
             android:id="@+id/splash_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="252dp"
+            android:layout_height="245dp"
             android:background="@drawable/ic_logo_vertical"
             android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome_to_alphawallet"/>
 
     </LinearLayout>
 

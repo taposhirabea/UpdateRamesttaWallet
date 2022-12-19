@@ -275,7 +275,7 @@ public class HomeActivity extends BaseNavigationActivity implements View.OnClick
         {
             //TODO: Check we are using latest version on github, since we're using a downloaded/manually installed version
             //TODO: Also add a build exclusion so this code only appears if it's a noAnalytics build.
-            //First check that this the package name is "io.stormbird.wallet" - it could be a fork
+            //First check that this the package name is "io.ramestta.wallet" - it could be a fork
         }
 
         setupFragmentListeners();

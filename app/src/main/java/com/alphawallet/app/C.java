@@ -39,7 +39,8 @@ public abstract class C {
     public static final String FANTOM_TEST_NETWORK = "Fantom (Test)";
     public static final String AVALANCHE_NETWORK = "Avalanche";
     public static final String FUJI_TEST_NETWORK = "Avalanche FUJI (Test)";
-    public static final String POLYGON_NETWORK = "Polygon";
+    public static final String MATIC_NETWORK = "Ramestta";
+    public static final String POLYGON_NETWORK = "Ramestta";
     public static final String POLYGON_TEST_NETWORK = "Mumbai (Test)";
     public static final String OPTIMISTIC_NETWORK = "Optimistic";
     public static final String OPTIMISTIC_TEST_NETWORK = "Optimistic (Test)";
@@ -82,7 +83,7 @@ public abstract class C {
     public static final String HECO_SYMBOL = "HT";
     public static final String FANTOM_SYMBOL = "FTM";
     public static final String AVALANCHE_SYMBOL = "AVAX";
-    public static final String POLYGON_SYMBOL = "MATIC";
+    public static final String POLYGON_SYMBOL = "RAMA";
     public static final String CRONOS_SYMBOL = "CRO";
     public static final String CRONOS_TEST_SYMBOL = "tCRO";
     public static final String ARBITRUM_SYMBOL = "AETH";
@@ -102,7 +103,7 @@ public abstract class C {
     public static final String DAI_TOKEN = "0x6b175474e89094c44da98b954eedeac495271d0f";
     public static final String SAI_TOKEN = "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359";
 
-    public static final String ALPHAWALLET_WEB = "https://www.alphawallet.com";
+    public static final String ALPHAWALLET_WEB = "https://www.ramestta.com";
 
     public static final String XDAI_BRIDGE_DAPP = "https://bridge.xdaichain.com/";
 
@@ -169,47 +170,47 @@ public abstract class C {
     public static final String EXTRA_1559_TX = "1559_TX";
 
     public static final String PRUNE_ACTIVITY =
-            "com.stormbird.wallet.PRUNE_ACTIVITY";
+            "com.ramestta.wallet.PRUNE_ACTIVITY";
 
     public static final String RESET_WALLET =
-            "com.stormbird.wallet.RESET";
+            "com.ramestta.wallet.RESET";
     public static final String ADDED_TOKEN =
-            "com.stormbird.wallet.ADDED";
+            "com.ramestta.wallet.ADDED";
     public static final String CHANGED_LOCALE =
-            "com.stormbird.wallet.CHANGED_LOCALE";
+            "com.ramestta.wallet.CHANGED_LOCALE";
     public static final String PAGE_LOADED =
-            "com.stormbird.wallet.PAGE_LOADED";
+            "com.ramestta.wallet.PAGE_LOADED";
     public static final String RESET_TOOLBAR =
-            "com.stormbird.wallet.RESET_TOOLBAR";
+            "com.ramestta.wallet.RESET_TOOLBAR";
     public static final String SIGN_DAPP_TRANSACTION =
-            "com.stormbird.wallet.SIGN_TRANSACTION";
+            "com.ramestta.wallet.SIGN_TRANSACTION";
     public static final String REQUEST_NOTIFICATION_ACCESS =
-            "com.stormbird.wallet.REQUEST_NOTIFICATION";
+            "com.ramestta.wallet.REQUEST_NOTIFICATION";
     public static final String BACKUP_WALLET_SUCCESS =
-            "com.stormbird.wallet.BACKUP_SUCCESS";
+            "com.ramestta.wallet.BACKUP_SUCCESS";
     public static final String CHANGE_CURRENCY =
-            "com.stormbird.wallet.CHANGE_CURRENCY";
+            "com.ramestta.wallet.CHANGE_CURRENCY";
     public static final String RESET_TRANSACTIONS =
-            "com.stormbird.wallet.RESET_TRANSACTIONS";
+            "com.ramestta.wallet.RESET_TRANSACTIONS";
     public static final String WALLET_CONNECT_REQUEST =
-            "com.stormbird.wallet.WALLET_CONNECT";
+            "com.ramestta.wallet.WALLET_CONNECT";
     public static final String WALLET_CONNECT_NEW_SESSION =
-            "com.stormbird.wallet.WC_NEW_SESSION";
+            "com.ramestta.wallet.WC_NEW_SESSION";
     public static final String WALLET_CONNECT_FAIL =
-            "com.stormbird.wallet.WC_FAIL";
+            "com.ramestta.wallet.WC_FAIL";
     public static final String WALLET_CONNECT_COUNT_CHANGE =
-            "com.stormbird.wallet.WC_CCHANGE";
+            "com.ramestta.wallet.WC_CCHANGE";
     public static final String WALLET_CONNECT_CLIENT_TERMINATE =
-            "com.stormbird.wallet.WC_CLIENT_TERMINATE";
+            "com.ramestta.wallet.WC_CLIENT_TERMINATE";
     public static final String WALLET_CONNECT_SWITCH_CHAIN =
-            "com.stormbird.wallet.WC_SWITCH_CHAIN";
+            "com.ramestta.wallet.WC_SWITCH_CHAIN";
     public static final String WALLET_CONNECT_ADD_CHAIN =
-            "com.stormbird.wallet.WC_ADD_CHAIN";
-    public static final String SHOW_BACKUP = "com.stormbird.wallet.CHECK_BACKUP";
-    public static final String HANDLE_BACKUP = "com.stormbird.wallet.HANDLE_BACKUP";
+            "com.ramestta.wallet.WC_ADD_CHAIN";
+    public static final String SHOW_BACKUP = "com.ramestta.wallet.CHECK_BACKUP";
+    public static final String HANDLE_BACKUP = "com.ramestta.wallet.HANDLE_BACKUP";
     public static final String FROM_HOME_ROUTER = "HomeRouter";
-    public static final String TOKEN_CLICK = "com.stormbird.wallet.TOKEN_CLICK";
-    public static final String SETTINGS_INSTANTIATED = "com.stormbird.wallet.SETTINGS_INSTANTIATED";
+    public static final String TOKEN_CLICK = "com.ramestta.wallet.TOKEN_CLICK";
+    public static final String SETTINGS_INSTANTIATED = "com.ramestta.wallet.SETTINGS_INSTANTIATED";
     public static final String APP_FOREGROUND_STATE = "com.alphawallet.APP_FOREGROUND_STATE";
     public static final String EXTRA_APP_FOREGROUND = "com.alphawallet.IS_FOREGORUND";
     public static final String SIGNAL_NFT_SYNC = "com.alphawallet.SYNC_NFT";
@@ -232,7 +233,7 @@ public abstract class C {
     //FOR DEMOS ETC
     public static final boolean SHOW_NEW_ACCOUNT_PROMPT = false;   //this will switch off the splash screen 'please make a key' message
 
-    public static final String DEFAULT_NETWORK = ETHEREUM_NETWORK_NAME;
+    public static final String DEFAULT_NETWORK = MATIC_NETWORK;
 
     public static final String TELEGRAM_PACKAGE_NAME = "org.telegram.messenger";
     public static final String TWITTER_PACKAGE_NAME = "com.twitter.android";
@@ -272,7 +273,7 @@ public abstract class C {
     public static final String DAPP_DEFAULT_URL = "https://www.stateofthedapps.com/";
     public static final String DAPP_PREFIX_TELEPHONE = "tel";
     public static final String DAPP_PREFIX_MAILTO = "mailto";
-    public static final String DAPP_PREFIX_ALPHAWALLET = "alphawallet";
+    public static final String DAPP_PREFIX_ALPHAWALLET = "ramesttawallet";
     public static final String DAPP_SUFFIX_RECEIVE = "receive";
     public static final String DAPP_PREFIX_MAPS = "maps.google.com/maps?daddr=";
     public static final String DAPP_PREFIX_WALLETCONNECT = "wc";
@@ -308,7 +309,7 @@ public abstract class C {
     public static final String AN_USE_COINBASE_PAY = "Use Coinbase Pay";
     public static final String APP_NAME = "PACKAGE_NAME";
 
-    public static final String ALPHAWALLET_LOGO_URI = "https://alphawallet.com/wp-content/themes/alphawallet/img/alphawallet-logo.svg";
+    public static final String ALPHAWALLET_LOGO_URI = "https://wwww.ramestta.com/ultra/img/mainlogo.svg";//"https://alphawallet/img/alphawallet-logo.svg";
 
     // Theme/Dark Mode
     public static final int THEME_LIGHT = 0;

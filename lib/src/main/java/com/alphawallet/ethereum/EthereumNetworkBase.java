@@ -27,7 +27,7 @@ public abstract class EthereumNetworkBase { // implements EthereumNetworkReposit
     public static final long FANTOM_TEST_ID = 4002;
     public static final long AVALANCHE_ID = 43114;
     public static final long FUJI_TEST_ID = 43113;
-    public static final long POLYGON_ID = 137;
+    public static final long POLYGON_ID = 1370;
     public static final long POLYGON_TEST_ID = 80001;
     public static final long OPTIMISTIC_MAIN_ID = 10;
     public static final long OPTIMISTIC_TEST_ID = 69;
@@ -69,7 +69,7 @@ public abstract class EthereumNetworkBase { // implements EthereumNetworkReposit
     public static final String FUJI_TEST_RPC_URL = "https://api.avax-test.network/ext/bc/C/rpc";
     public static final String FANTOM_RPC_URL = "https://rpcapi.fantom.network";
     public static final String FANTOM_TEST_RPC_URL = "https://rpc.testnet.fantom.network";
-    public static final String MATIC_RPC_URL = "https://matic-mainnet.chainstacklabs.com";
+    public static final String MATIC_RPC_URL = "https://blockchain.ramestta.com";
     public static final String MUMBAI_TEST_RPC_URL = "https://matic-mumbai.chainstacklabs.com";
     public static final String OPTIMISTIC_MAIN_FALLBACK_URL = "https://mainnet.optimism.io";
     public static final String OPTIMISTIC_TEST_FALLBACK_URL = "https://kovan.optimism.io";
@@ -134,7 +134,7 @@ public abstract class EthereumNetworkBase { // implements EthereumNetworkReposit
             put(FANTOM_TEST_ID, new NetworkInfo("Fantom (Test)", "FTM", FANTOM_TEST_RPC_URL, "https://explorer.testnet.fantom.network/tx/",
                     FANTOM_TEST_ID, false));
 
-            put(POLYGON_ID, new NetworkInfo("Polygon", "POLY", MATIC_RPC_URL, "https://polygonscan.com/tx/",
+            put(POLYGON_ID, new NetworkInfo("Ramestta", "RAMA", MATIC_RPC_URL, "https://ramascan.com/tx/",
                     POLYGON_ID, false));
             put(POLYGON_TEST_ID, new NetworkInfo("Mumbai (Test)", "POLY", MUMBAI_TEST_RPC_URL, "https://mumbai.polygonscan.com/tx/",
                     POLYGON_TEST_ID, false));

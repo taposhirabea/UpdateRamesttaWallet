@@ -739,7 +739,7 @@ public class TickerService
         put(HECO_ID, "huobi-token");
         put(AVALANCHE_ID, "avalanche-2");
         put(FANTOM_ID, "fantom");
-        put(POLYGON_ID, "matic-network");
+        put(POLYGON_ID, "ramestta");
         put(ARBITRUM_MAIN_ID, "ethereum");
         put(OPTIMISTIC_MAIN_ID, "ethereum");
         put(KLAYTN_ID, "klay-token");

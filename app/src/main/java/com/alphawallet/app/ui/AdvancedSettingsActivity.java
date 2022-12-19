@@ -148,13 +148,13 @@ public class AdvancedSettingsActivity extends BaseActivity
     {
         LinearLayout advancedSettingsLayout = findViewById(R.id.layout);
         advancedSettingsLayout.addView(nodeStatus);
-        advancedSettingsLayout.addView(console);
+        //advancedSettingsLayout.addView(console);
         advancedSettingsLayout.addView(clearBrowserCache);
 
         if (!checkWritePermission() && EthereumNetworkRepository.extraChains() == null)
-            advancedSettingsLayout.addView(tokenScript);
+            //advancedSettingsLayout.addView(tokenScript);
 
-        advancedSettingsLayout.addView(tokenScriptManagement);
+        //advancedSettingsLayout.addView(tokenScriptManagement);
         advancedSettingsLayout.addView(fullScreenSettings);
         advancedSettingsLayout.addView(refreshTokenDatabase);
         advancedSettingsLayout.addView(eip1559Transactions);
