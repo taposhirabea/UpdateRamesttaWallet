@@ -12,7 +12,7 @@ public class MediaLinks
     public static final String AWALLET_REDDIT_URL = "https://www.reddit.com/r/ramestta/";
     public static final String AWALLET_INSTAGRAM_URL = null;
     public static final String AWALLET_BLOG_URL = null;
-    public static final String AWALLET_FAQ_URL = "https://ramestta.com/support/";
+    public static final String AWALLET_FAQ_URL = "https://ramestta.com/support";
     public static final String AWALLET_GITHUB = "https://github.com/taposhirabea/UpdateRamesttaWallet/issues";
 
     public static final String AWALLET_EMAIL1 = "feedback+android";
