@@ -682,7 +682,7 @@
     <string name="calc_gas_limit">正在计算燃料限制</string>
     <string name="wallet_address">钱包地址</string>
     <string name="transaction_in_progress">进行中的交易</string>
-    <string name="transaction_progress_detail">The transaction is sent to the Ethereum blockchain. It might take few minutes to be confirmed by miners.</string>
+    <string name="transaction_progress_detail">The transaction is sent to the Ramestta blockchain. It might take few minutes to be confirmed by miners.</string>
     <string name="action_show_tx_details">Show Transaction Details</string>
     <string name="default_to">Sent %1$s %2$s to %3$s</string>
     <string name="default_from">Received %1$s %2$s from %3$s</string>
@@ -840,7 +840,7 @@
     <string name="trait_rarity_suppl_text">%1$s%% have this trait</string>
     <string name="toast_qr_scanning_requires_api_24">QR 扫描需要 Android 7.0（API 级别 24）或更高版本。</string>
     <string name="experimental_1559">Use 1559 Transactions</string>
-    <string name="experimental_1559_tx_sub">Experimental 1559 Transactions</string>
+    <string name="experimental_1559_tx_sub">1559 Transactions</string>
     <string name="action_reset_network" >重置</string>
     <string name="chain_id">Chain ID: %1d</string>
     <string name="asset_creator">Created By</string>

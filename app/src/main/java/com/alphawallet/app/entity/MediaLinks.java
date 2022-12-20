@@ -15,7 +15,7 @@ public class MediaLinks
     public static final String AWALLET_FAQ_URL = "https://ramestta.com/support";
     public static final String AWALLET_GITHUB = "https://github.com/taposhirabea/UpdateRamesttaWallet/issues";
 
-    public static final String AWALLET_EMAIL1 = "feedback+android";
+    public static final String AWALLET_EMAIL1 = "support";
     public static final String AWALLET_EMAIL2 = "ramestta.com";
     public static final String AWALLET_SUBJECT = "Hi guys. I've been using RamesttaWallet";
 }

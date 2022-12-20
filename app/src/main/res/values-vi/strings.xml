@@ -699,7 +699,7 @@
     <string name="calc_gas_limit">Calculating Gas Limit</string>
     <string name="wallet_address">Địa chỉ ví</string>
     <string name="transaction_in_progress">Đang tiến hành giao dịch</string>
-    <string name="transaction_progress_detail">The transaction is sent to the Ethereum blockchain. It might take few minutes to be confirmed by miners.</string>
+    <string name="transaction_progress_detail">The transaction is sent to the Ramestta blockchain. It might take few minutes to be confirmed by miners.</string>
     <string name="action_show_tx_details">Hiển thị chi tiết giao dịch</string>
     <string name="default_to">Gửi %1$s %2$s tới %3$s</string>
     <string name="default_from">Nhận được %1$s %2$s từ %3$s</string>
@@ -855,7 +855,7 @@
     <string name="trait_rarity_suppl_text">%1$s%% have this trait</string>
     <string name="toast_qr_scanning_requires_api_24">Quét QR yêu cầu Android 7.0 (API cấp 24) trở lên.</string>
     <string name="experimental_1559">Use 1559 Transactions</string>
-    <string name="experimental_1559_tx_sub">Experimental 1559 Transactions</string>
+    <string name="experimental_1559_tx_sub">1559 Transactions</string>
     <string name="action_reset_network" >Cài lại</string>
     <string name="chain_id">Chain ID: %1d</string>
     <string name="asset_creator">Created By</string>
