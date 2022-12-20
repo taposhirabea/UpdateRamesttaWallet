@@ -13,15 +13,15 @@ public class DappBrowserUtilsTest
     public void testDefaultDapp()
     {
         assertThat(DappBrowserUtils.defaultDapp(1L), equalTo("https://ramestta.com/"));
-        assertThat(DappBrowserUtils.defaultDapp(137L), equalTo("https://ramestta.com/browser-item-category/polygon/"));
-        assertThat(DappBrowserUtils.defaultDapp(80001L), equalTo("https://ramestta.com/browser-item-category/polygon/"));
+        assertThat(DappBrowserUtils.defaultDapp(137L), equalTo("https://ramestta.com/"));
+        assertThat(DappBrowserUtils.defaultDapp(80001L), equalTo("https://ramestta.com/"));
     }
 
     @Test
     public void testIsDefaultDapp()
     {
         assertTrue(DappBrowserUtils.isDefaultDapp("https://ramestta.com/"));
-        assertTrue(DappBrowserUtils.isDefaultDapp("https://ramestta.com/browser-item-category/polygon/"));
+        assertTrue(DappBrowserUtils.isDefaultDapp("https://ramestta.com/"));
         assertFalse(DappBrowserUtils.isDefaultDapp("https://app.1inch.finance/"));
     }
 
