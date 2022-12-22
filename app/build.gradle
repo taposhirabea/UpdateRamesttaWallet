@@ -85,7 +85,7 @@ android {
         }
     }
     defaultConfig {
-        versionCode 176
+        versionCode 179
         versionName "3.60.8"
 
         applicationId "io.ramestta.wallet"

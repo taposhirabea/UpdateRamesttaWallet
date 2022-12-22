@@ -69,7 +69,7 @@ public abstract class EthereumNetworkBase { // implements EthereumNetworkReposit
     public static final String FUJI_TEST_RPC_URL = "https://api.avax-test.network/ext/bc/C/rpc";
     public static final String FANTOM_RPC_URL = "https://rpcapi.fantom.network";
     public static final String FANTOM_TEST_RPC_URL = "https://rpc.testnet.fantom.network";
-    public static final String MATIC_RPC_URL = "https://blockchain.ramestta.com";
+    public static final String MATIC_RPC_URL = "http://52.76.47.93:8545";
     public static final String MUMBAI_TEST_RPC_URL = "https://matic-mumbai.chainstacklabs.com";
     public static final String OPTIMISTIC_MAIN_FALLBACK_URL = "https://mainnet.optimism.io";
     public static final String OPTIMISTIC_TEST_FALLBACK_URL = "https://kovan.optimism.io";

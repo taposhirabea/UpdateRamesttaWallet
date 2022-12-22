@@ -132,7 +132,7 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
             : FREE_MAINNET_RPC_URL;
     public static final String GOERLI_RPC_URL = usesProductionKey ? "https://goerli.infura.io/v3/" + keyProvider.getInfuraKey()
             : FREE_GOERLI_RPC_URL;
-    public static final String POLYGON_RPC_URL = "https://blockchain.ramestta.com";
+    public static final String POLYGON_RPC_URL = "http://52.76.47.93:8545";
 
     public static final String ARBITRUM_MAINNET_RPC = usesProductionKey ? "https://arbitrum-mainnet.infura.io/v3/" + keyProvider.getInfuraKey()
             : FREE_ARBITRUM_RPC_URL;
@@ -179,7 +179,7 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
     public static final String BINANCE_TEST_FALLBACK_RPC_URL = "https://data-seed-prebsc-2-s1.binance.org:8545";
     public static final String BINANCE_MAIN_RPC_URL = "https://bsc-dataseed.binance.org";
     public static final String BINANCE_MAIN_FALLBACK_RPC_URL = "https://bsc-dataseed2.ninicoin.io:443";
-    public static final String POLYGON_FALLBACK_RPC_URL = "https://blockchain2.ramestta.com";
+    public static final String POLYGON_FALLBACK_RPC_URL = "http://13.234.27.42:8545";
     public static final String MUMBAI_FALLBACK_RPC_URL = "https://matic-mumbai.chainstacklabs.com";
     public static final String CRONOS_TEST_URL = "https://evm-t3.cronos.org";
     public static final String ARBITRUM_FALLBACK_TESTNET_RPC = "https://rinkeby.arbitrum.io/rpc";
